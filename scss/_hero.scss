@@ -20,16 +20,6 @@
             position: relative;
             padding: 0 1.5px;
             font-family: 'Allison', cursive ;
-            
-            &::before{
-                content: "";
-                position: relative;
-                height: 10%;
-                bottom: 6px;
-                right: 3rem;
-                left: 3rem;
-                background-color: $color-botones;
-            }
         }
     }
 
@@ -54,4 +44,4 @@
             background-color: $color-botones;
             color: $color-fuentes-secundario;
         }
-    }
+}
