@@ -1,25 +1,32 @@
 .hero{
-    width: 100%;
-    height: calc(100vh - 10rem);
+    background-image: url(../imagenes/sense-logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 10px;
+    background-attachment: local;
+    height: calc(100vh - 30rem);
     position: relative;
     display: inline-block;
 
     h2 {
+        font-family: 'Sarabun', sans-serif;
         margin-bottom: 15px;
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 500;
         span{
-            font-weight: 700;
+            font-size: 10rem;
+            font-weight: 50;
             position: relative;
-            padding: 0 5px;
+            padding: 0 1.5px;
+            font-family: 'Allison', cursive ;
             
             &::before{
                 content: "";
-                position: absolute;
-                height: 30%;
-                bottom: 0;
-                right: 0;
-                left: 0;
+                position: relative;
+                height: 80%;
+                bottom: 10px;
+                right: -2rem;
+                left: -2rem;
                 background-color: $color-botones;
                 z-index: -1;
             }
@@ -27,20 +34,24 @@
     }
 
     p{ 
-        color: $color-botones-secundario;
+        
+        font-family: 'Sarabun', sans-serif;
+        color: $color-fuentes-secundario;
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 40px;
+        }
     }
 
     a{
-        border: 1px solid $color-fondo;
+        
+        font-family: 'Sarabun', sans-serif;
         @include anclas;
         text-transform: uppercase;
         padding: 0.5rem 1.5rem;
         transition: all 0.2s ease;
 
         &:hover{
-            background-color: $color-fuentes-secundario;
+            background-color: $color-botones;
+            color: $color-fuentes-secundario;
         }
     }
-}

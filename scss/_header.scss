@@ -1,7 +1,16 @@
 @mixin anclas {
     text-decoration: none;
-    color: $color-fuentes;
-    font-size: 6rem;
+    color: $color-fuentes-secundario;
+    font-size: 2rem;
 }
 
+.navbar{
+        color: $color-fuentes-secundario;
+        font-family: 'Sarabun', sans-serif;
 
+        .navbar-brand h1{
+            font-family:'Allison', cursive;
+            text-transform: lowercase;
+            font-size: 6rem;
+        }
+}
