@@ -2,22 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 /*ESTILOS GENERALES*/
 body {
-  color: #D07517;
   background-color: white;
+  color: #D07517;
   font-family: "Sarabun", sans-serif;
   font-size: large;
 }
 
+.navbar-brand h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .navbar {
+  color: #BD8C24;
   font-family: "Sarabun", sans-serif;
-  font-weight: bold;
 }
 .navbar .navbar-brand h1 {
   font-family: "Allison", cursive;
-  text-transform: capitalize;
-  font-size: 150px;
-  padding: 0;
-  margin-top: -30px;
+  text-transform: lowercase;
+  font-size: 6rem;
 }
 
 .hero {
@@ -29,9 +31,9 @@ body {
   height: calc(100vh - 30rem);
   position: relative;
   display: inline-block;
-  color: #D07517;
 }
 .hero h2 {
+  font-family: "Sarabun", sans-serif;
   margin-bottom: 15px;
   font-size: 2.5rem;
   font-weight: 500;
@@ -84,6 +86,4 @@ main h2 {
 }
 .seccion-productos div {
   margin: 10px;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */
