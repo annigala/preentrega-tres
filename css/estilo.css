@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Sarabun:wght@100&display=swap");
+/*ESTILOS GENERALES*/
+html {
+  font-size: 62.5%;
+}
+html body {
+  background-color: white;
+  color: #D07517;
+  font-family: "Sarabun", sans-serif;
+}
+
+/*# sourceMappingURL=estilo.css.map */
