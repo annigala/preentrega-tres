@@ -1,13 +1,14 @@
 .hero{
     background-image: url(../imagenes/sense-logo.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-top: 10px;
-    background-attachment: local;
-    height: calc(100vh - 30rem);
+    background-size: 1200px 650px;
+    display: grid;
+    margin-top: 5px;
+    background-attachment:initial;
+    height: calc(100vh - 5rem);
     position: relative;
-    display: inline-block;
     color: $color-fuentes;
+
 
     h2 {
         margin-bottom: 15px;
@@ -23,12 +24,11 @@
             &::before{
                 content: "";
                 position: relative;
-                height: 80%;
-                bottom: 10px;
-                right: -2rem;
-                left: -2rem;
+                height: 10%;
+                bottom: 6px;
+                right: 3rem;
+                left: 3rem;
                 background-color: $color-botones;
-                z-index: -1;
             }
         }
     }

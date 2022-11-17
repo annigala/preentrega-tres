@@ -2,20 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
 /*ESTILOS GENERALES*/
 body {
-  color: #D07517;
   background-color: white;
   font-family: "Sarabun", sans-serif;
   font-size: large;
 }
 
-.navbar {
+header .navbar {
   font-family: "Sarabun", sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
+  color: #D07517;
 }
-.navbar .navbar-brand h1 {
+header .navbar-brand h1 {
+  color: #D07517;
   font-family: "Allison", cursive;
-  text-transform: capitalize;
-  font-size: 150px;
+  text-transform: lowercase;
+  font-size: 100px;
   padding: 0;
   margin-top: -30px;
 }
@@ -23,12 +24,12 @@ body {
 .hero {
   background-image: url(../imagenes/sense-logo.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin-top: 10px;
-  background-attachment: local;
-  height: calc(100vh - 30rem);
+  background-size: 1200px 650px;
+  display: grid;
+  margin-top: 5px;
+  background-attachment: initial;
+  height: calc(100vh - 5rem);
   position: relative;
-  display: inline-block;
   color: #D07517;
 }
 .hero h2 {
@@ -46,12 +47,11 @@ body {
 .hero h2 span::before {
   content: "";
   position: relative;
-  height: 80%;
-  bottom: 10px;
-  right: -2rem;
-  left: -2rem;
+  height: 10%;
+  bottom: 6px;
+  right: 3rem;
+  left: 3rem;
   background-color: rgba(222, 204, 163, 0.6941176471);
-  z-index: -1;
 }
 .hero p {
   font-family: "Sarabun", sans-serif;
@@ -74,16 +74,25 @@ a:hover {
   color: #BD8C24;
 }
 
-main h2 {
+main main h2 {
   text-align: center;
 }
-
-.seccion-productos {
+main .seccion-productos {
   display: flex;
   justify-content: center;
 }
-.seccion-productos div {
+main .seccion-productos div {
   margin: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(204, 204, 204, 0.2431372549);
+}
+footer h2 {
+  font-family: "Allison", cursive;
 }
 
 /*# sourceMappingURL=estilo.css.map */

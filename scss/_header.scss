@@ -4,15 +4,23 @@
     font-size: 2rem;
 }
 
-.navbar{
-        font-family: 'Sarabun', sans-serif;
-        font-weight: bold;
+header{
+
+        .navbar{
+                font-family: 'Sarabun', sans-serif;
+                font-weight:lighter;
+                color: $color-fuentes;
+            }
 
         .navbar-brand h1{
+            color: $color-fuentes;
             font-family:'Allison', cursive;
-            text-transform:capitalize;
-            font-size: 150px;
+            text-transform: lowercase;
+            font-size: 100px;
             padding: 0;
             margin-top: -30px;
         }
-}
+    }
+
+
+

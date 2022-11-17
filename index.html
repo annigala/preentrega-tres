@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -57,10 +57,10 @@
     <!-- fin de navbar -->
     </header>
 <!-- HERO -->
-    <section class="hero d-flex flex-column justify-content-center align-items-center">
+    <section class="hero d-flex flex-row justify-content-center align-items-start">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col text-center">
+            <div class="column justify-content-end">
+                <div class="col text-end">
                     <h2>somos <span>Sense ind</span></h2>
                     <p>Conocé nuestros productos<div class="boton-promo"><a href="productos.html">Productos</a></div></p>
                 </div>
@@ -68,6 +68,46 @@
         </div>
     </section>
     <main>
+        <!---------------------------------------------------------------------CARROUSEL-------------------------------------------------------------------------------->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="imagenes/stock-carrousel.png" class="d-block w-100" alt="Renovamos Stock">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Renovamos nuestro stock</h5>
+                    <p>Conocé la colección Primavera-Verano</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">   
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!---------------------------------------------------------------------CARROUSEL-------------------------------------------------------------------------------->
         <!-- secciones ropa -->
         <div class="productos">
             <h2 class="animate__animated animate__fadeInRight animate__slower animate__repeat-3 3" >Colección Primavera-Verano</h2>
@@ -96,6 +136,7 @@
 
 <footer>
     <h2>Sense ind.</h2>
+    <h6>Todos los derechos reservados</h6>
 
 </footer>
 
