@@ -14,14 +14,49 @@
     <title>Sense ind</title>
 </head>
 <body class="container-fluid">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
     <!-- HEADER -->
     <header class="encabezado">
         <a href="index.html">
             <i class="bi bi-list"></i>
         </a>
-        <h1 class="titulo-inicial">Sense ind</h1>
+    
+        <h1 class="titulo-principal">Sense ind</h1>
 
-        <nav>
+        <nav class="navegador">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="">Productos</a></li>
@@ -36,7 +71,7 @@
     <section class="hero d-flex flex-column justify-content-center align-items-center">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
+                <div class="col text-center">
                     <h2>somos <span>Sense ind</span></h2>
                     <p>consultá las promos de la semana <div class="boton-promo"><a href="">Promos</a></div></p>
                 </div>
@@ -49,20 +84,20 @@
             <h2>Conocé nuestros productos</h2>
         </div>
 
-        <section class="seccion-productos">
-            <div class="col-lg-6">
-                <img src="https://nafnaf.vteximg.com.br/arquivos/ids/730566-414-515/14_459C303_A03691_0.jpg?v=637810740599170000" alt="Short, minis, y jeans">
+        <section class="row">
+            <div class="col-x1-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imagenes/short.jpg" alt="Short, minis, y jeans">
+            <div class="col-x1-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imagenes/vestido.jpg" alt="Vestidos">
             </div>
-            <div class="col-lg-6">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_993605-MLA52167134358_102022-W.jpg" alt="Vestidos">
+            <div class="img-fluid" class="col-x1-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imagenes/musculosa.jpg" alt="Remeras, tops, musculosas">
             </div>
-            <div class="col-lg-6">
-                <img src="https://yagmour.vtexassets.com/arquivos/ids/255003-1144-1716?v=637635286029100000&width=1144&height=1716&aspect=true" alt="Remeras, tops, musculosas">
-            </div>
-            <div class="col-lg-6">
-                <img src="https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-cencosud-master-catalog/default/dwd9acc533/images/imagenes-productos/607/572709-0001-002.jpg?sw=320&sh=409&sm=fit" alt="trajes de baño">
+            <div class="col-x1-3 col-md-6 col-sm-12">
+                <img class="img-fluid" src="imagenes/bikini.jpg" alt="trajes de baño">
             </div>
         </section>
+
     </main>
 
 
